@@ -40,3 +40,22 @@ function skincare() {
 } 
 // CALL the function to use it!
 skincare(); 
+skincare(); // can run the fnction again 
+
+// 4 types of FUNCTIONS 
+// input - yes or no? output - yes or no?
+
+// SANDWICH - need input, provide output
+// if you need input, list (parameters)
+function makeSandwich (filling, sauce, bread) {
+   // put the ingredients together 
+   let sandwich; 
+   sandwich = filling + " and " + sauce + " on " + bread; 
+   // if you give ouput, use the word RETURN 
+   return sandwich; 
+  
+}
+
+// using a function with input means YOU need to provide arguments in the parenthises 
+let mySandwich = makeSandwich("mozzarella","pesto","baguette" ) ;
+console.log(mySandwich) ;
